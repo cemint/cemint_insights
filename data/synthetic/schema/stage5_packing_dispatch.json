@@ -1,0 +1,30 @@
+{
+  "stage": "Packing and Dispatch",
+  "description": "Data from cement packing and logistics",
+  "fields": {
+    "timestamp": "ISO 8601 datetime of measurement",
+    "silo_level_pct": "float, silo level percentage",
+    "silo_pressure_mbar": "float, silo pressure in mbar",
+    "silo_temp_c": "float, silo temperature in Celsius",
+    "aeration_airflow_nm3_hr": "float, aeration airflow in Nm3/hr",
+    "silo_pressure_pa": "float, silo pressure in Pa",
+    "packing_machine_speed_bags_min": "float, packing machine speed in bags/min",
+    "packing_machine_efficiency_pct": "float, packing machine efficiency in %",
+    "packing_machine_power_kw": "float, power consumption of packing machine",
+    "bag_weight_kg": "float, weight of each bag in kg",
+    "bag_reject_rate_pct": "float, percentage of rejected bags",
+    "rejected_bags_count": "integer, count of rejected bags",
+    "packing_machine_status": "integer, status of the packing machine (0: Off, 1: On)",
+    "bulk_loading_rate_tph": "float, bulk loading rate in tonnes per hour",
+    "truck_loading_time_min": "float, average truck loading time in minutes",
+    "inventory_turnover_rate": "float, inventory turnover rate",
+    "daily_dispatch_tonnes": "float, daily dispatch volume in tonnes",
+    "dispatch_rate_tph": "float, dispatch rate in tonnes per hour",
+    "inventory_level_tonnes": "float, inventory level in tonnes",
+    "customer_complaints_count": "integer, count of customer complaints",
+    "silo_overpressure_alarm": "integer, silo overpressure alarm status (0: Off, 1: On)",
+    "packing_machine_jam_alarm": "integer, packing machine jam alarm status (0: Off, 1: On)",
+    "truck_delay_alarm": "integer, truck delay alarm status (0: Off, 1: On)",
+    "dust_emission_mgNm3": "float, dust emission in mg/Nm3"
+  }
+}

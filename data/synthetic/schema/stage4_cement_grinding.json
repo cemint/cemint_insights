@@ -1,0 +1,33 @@
+{
+  "stage": "Cement Grinding",
+  "description": "Data from cement mills and grinding systems",
+  "fields": {
+    "timestamp": "ISO 8601 datetime of measurement",
+    "mill_motor_power_kw": "float, cement mill motor consumption",
+    "mill_outlet_temp_c": "float, temperature at mill outlet (Celsius)",
+    "mill_feed_rate_tph": "float, tonnes per hour of cement",
+    "mill_vibration_mm_s": "float, mill vibration in mm/s",
+    "separator_speed_rpm": "float, separator rotor speed",
+    "separator_efficiency_pct": "float, separator efficiency in %",
+    "separator_motor_status": "integer, separator motor status (0: Off, 1: On)",
+    "gypsum_feed_rate_tph": "float, gypsum feed rate in tonnes per hour",
+    "flyash_feed_rate_tph": "float, fly ash feed rate in tonnes per hour",
+    "slag_feed_rate_tph": "float, slag feed rate in tonnes per hour",
+    "additive_blending_ratio": "float, blending ratio of additives",
+    "fineness_blaine_cm2_g": "float, Blaine fineness in cm2/g",
+    "residue_45_micron_pct": "float, residue on 45 micron sieve in %",
+    "cement_temp_c": "float, cement temperature in Celsius",
+    "specific_power_consumption_kwh_t": "float, specific power consumption in kWh/t",
+    "mill_high_vibration_alarm": "integer, high vibration alarm status (0: Off, 1: On)",
+    "separator_blockage_alarm": "integer, separator blockage alarm status (0: Off, 1: On)",
+    "mill_overload_alarm": "integer, mill overload alarm status (0: Off, 1: On)",
+    "separator_efficiency_drop_alarm": "integer, separator efficiency drop alarm status (0: Off, 1: On)",
+    "clinker_feed_tph": "float, clinker feed rate in tonnes per hour",
+    "additive_feed_tph": "float, additive feed rate in tonnes per hour",
+    "cement_mill_power_kw": "float, power consumption of cement mill",
+    "cement_mill_outlet_temp_c": "float, temperature at cement mill outlet (Celsius)",
+    "cement_strength_3d_mpa": "float, 3-day cement strength in MPa",
+    "cement_strength_28d_mpa": "float, 28-day cement strength in MPa",
+    "cement_mill_vibration_mm": "float, cement mill vibration in mm"
+  }
+}

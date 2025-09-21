@@ -1,0 +1,28 @@
+{
+  "stage": "Raw Materials Preparation",
+  "description": "Data from raw material inputs, quarrying, and feed preparation",
+  "fields": {
+    "timestamp": "ISO 8601 datetime of measurement",
+    "limestone_feed_tph": "float, tonnes per hour of limestone",
+    "clay_feed_tph": "float, tonnes per hour of clay/shale",
+    "iron_ore_feed_tph": "float, tonnes per hour of iron ore",
+    "gypsum_feed_tph": "float, tonnes per hour of gypsum",
+    "laterite_feed_tph": "float, tonnes per hour of laterite",
+    "limestone_moisture_pct": "float, percentage of moisture in limestone",
+    "clay_moisture_pct": "float, percentage of moisture in clay",
+    "avg_particle_size_mm": "float, average particle size in millimeters",
+    "CaO_pct": "float, percentage of calcium oxide",
+    "SiO2_pct": "float, percentage of silicon dioxide",
+    "Al2O3_pct": "float, percentage of aluminum oxide",
+    "Fe2O3_pct": "float, percentage of iron oxide",
+    "MgO_pct": "float, percentage of magnesium oxide",
+    "crusher_power_kw": "float, power consumed by crusher in kW",
+    "conveyor_speed_mps": "float, conveyor belt speed in meters per second",
+    "CO2_emission_kgph": "float, carbon dioxide emissions in kilograms per hour",
+    "dust_concentration_mgpm3": "float, dust concentration in milligrams per cubic meter",
+    "crusher_status": "integer, status of the crusher (0: Off, 1: On)",
+    "energy_consumption_kwh": "float, energy consumption in kilowatt-hours",
+    "moisture_content_pct": "float, percentage of feed moisture"
+  }
+}
+
