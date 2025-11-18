@@ -1,7 +1,5 @@
 # 🏗️ CEMint – Cementing Intelligence into Sustainable Operations
 
-🏆 **Hackathon Pitch Line**
-
 CEMint – The AI brain for smarter, greener cement plants. From energy savings to consistent quality, CEMint unifies your plant data and turns it into actionable intelligence.
 
 ---
